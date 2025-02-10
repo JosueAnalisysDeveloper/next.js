@@ -3,7 +3,7 @@ export default function not_found(){
         <div>
             <h1>404</h1>
 
-            <p>deu erro no codigo zé</p>
+            <p>esta pag n existe</p>
         </div>
     )
 
