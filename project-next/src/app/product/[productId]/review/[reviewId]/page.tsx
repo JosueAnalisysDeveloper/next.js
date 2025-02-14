@@ -13,13 +13,11 @@ export default function review({params}: reviewparams){
         notFound ()
 
     }
-    if(parseInt(params.productId) > 5){
-        notFound ()
-    }
+   
 
     return(
         <div>
-            <p>produto {params.productId} </p>
+            <p>produto {params.productId} </p>  
             <p>review {params.reviewId}</p>
         </div>
     )
