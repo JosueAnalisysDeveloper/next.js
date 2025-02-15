@@ -27,7 +27,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <header>cabecario da pagina</header>
         {children}
+        <footer>rodapé da pagina</footer>
       </body>
     </html>
   );
