@@ -1,4 +1,13 @@
+import { Metadata } from 'next'
 import { notFound } from 'next/navigation'
+
+export const metadata: Metadata ={
+    title: 'reviews',
+    
+    description: 'paginas de analises'
+
+}
+
 
 interface reviewparams{
     params: {
