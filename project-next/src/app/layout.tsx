@@ -35,9 +35,13 @@ export default function RootLayout({
           backgroundColor: 'blue'
 
         }}>cabecario da pagina</header>
+
         {children}
+
+
         <footer style={{
-          backgroundColor: 'green'
+          backgroundColor: 'green',
+          
         }}>rodapé da pagina</footer>
       </body>
     </html>

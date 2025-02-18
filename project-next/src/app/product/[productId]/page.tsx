@@ -28,5 +28,6 @@ export default function infoprod ({params}: productparams){
         <div>
             <p>informacao do produto {params.productId} </p>
         </div>
+
     )
 }
