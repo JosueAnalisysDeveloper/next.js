@@ -1,5 +1,5 @@
 import { Metadata } from "next"
-import Link from 'next/link'
+
 
 
 export const metadata: Metadata = {
@@ -21,7 +21,7 @@ export default function products () {
             <p>produto 2</p>
             <p>produto 3</p>
 
-            <Link href="./review"> CONFIRA A REVIEWS DO PRODUTO ACIMA </Link>
+        
         </div>
         
     )

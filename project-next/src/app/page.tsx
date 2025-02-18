@@ -5,7 +5,9 @@ export default function home () {
       <div style={{
         color: 'red'
       }}>
-         <Link href="./product"> LINK PARA A PAGINA DE PRODUTOS </Link>
+         <Link href="./product/1"> produto 1</Link>
+         <Link href="./product/2"> produto 2</Link>
+         <Link href="./product/3"> produto 3</Link>
       </div>
   )
 }

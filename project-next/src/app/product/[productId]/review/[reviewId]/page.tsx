@@ -1,8 +1,9 @@
 import { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 
+
 export const metadata: Metadata ={
-    title: 'reviews',
+    title: 'review',
     
     description: 'paginas de analises'
 
@@ -30,4 +31,7 @@ export default function review({params}: reviewparams){
             <p>review {params.reviewId}</p>
         </div>
     )
+
+
+    
 }
